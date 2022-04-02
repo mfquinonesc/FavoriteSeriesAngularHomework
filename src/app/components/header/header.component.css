@@ -1,0 +1,17 @@
+.toolbar{
+    width: 100%;
+    padding: 0 20vh;
+}
+
+.toolbar span{
+    padding: 0 5vh 0 0;
+}
+
+.toolbar span button{
+    padding: 0;
+    font-size: 3vh;
+}
+
+.toolbar button{
+    padding: 0 5vh;    
+}

@@ -1,0 +1,15 @@
+<div class="biography-ctn center-v">
+    <h1>SERIES DESTACADAS</h1>
+    <div class="biography-items-ctn center-v">
+        <mat-card class="item-info-card" *ngFor="let item of series">           
+            <mat-card-title>{{item.name}}</mat-card-title>
+            <mat-card-subtitle>{{item.subtitle}}</mat-card-subtitle>
+            
+            <img mat-card-image [src]= "item.image" [alt]="item.image_alt">           
+            <mat-card-content>
+              <p>{{item.description}}</p>             
+            </mat-card-content>            
+                   
+        </mat-card>
+    </div>
+</div>

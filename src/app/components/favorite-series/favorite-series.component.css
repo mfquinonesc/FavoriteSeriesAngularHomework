@@ -1,0 +1,21 @@
+.series-list-ctn{
+    width: 100vw;
+    height: auto;
+}
+
+.series-list-ctn h1{
+    background-color: #f44336;
+    width: 80vw;
+    color: #fff;
+    font-weight: bold;
+    padding: 3vh;
+    margin: 5vh 0;
+    text-align: center;
+}
+
+.series-list-items-ctn .list .list-item{
+    width: 83vw;
+    background-color: #f443367e ;
+    margin: 5px 0;
+    
+}

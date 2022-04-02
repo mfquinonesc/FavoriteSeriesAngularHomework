@@ -1,0 +1,24 @@
+.biography-ctn{
+    width: 100vw;
+    height: auto;
+}
+.biography-ctn h1{
+    padding:3vh;  
+    text-align: center;
+    width: 80%;     
+    margin: 5vh 0;
+    color: rgb(103, 58, 183);
+    font-weight: bold;
+}
+
+.biography-ctn .biography-items-ctn{
+    background-color: #ffd640b6;  
+    width: 80%;
+    padding: 5vh;     
+}
+
+.biography-ctn .biography-items-ctn .item-info-card{
+    width: 60%;
+    margin-bottom: 5vh;
+}
+
